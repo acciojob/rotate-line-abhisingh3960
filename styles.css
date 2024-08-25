@@ -1,1 +1,13 @@
 /*  your css code here. If applicable */
+/* Apply styles to the rotating line */
+#line {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 2px;
+    background-color: black;
+    transform-origin: center; 
+    transform: translate(-50%, -50%); 
+}
+
